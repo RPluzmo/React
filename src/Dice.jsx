@@ -9,7 +9,7 @@ import dice6 from "./assets/dice/dice-6.svg";
 
 const diceImages = [dice1, dice2, dice3, dice4, dice5, dice6];
 function Dice() {
-     const [diceValue, setDiceValue] = useState(4);
+     const [diceValue, setDiceValue] = useState(2);
 
      function rollDice() {
           const randomNumber = Math.floor(Math.random() * 6) + 1;
